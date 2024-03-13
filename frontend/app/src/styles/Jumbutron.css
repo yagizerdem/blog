@@ -1,0 +1,25 @@
+.jumbutron{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: relative;
+}
+.jumbutron > img{
+    width: calc(100% / 3);
+    object-fit:cover;
+}
+.jumbutron > .title{
+    width: fit-content;
+    padding: 0 10px;
+    height: 80px;
+    background-color: #222831b4;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    bottom:-40px;
+    left:50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-left:-200px;
+    display: flex;
+    align-items: center;
+}

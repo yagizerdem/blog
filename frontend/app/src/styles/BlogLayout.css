@@ -1,0 +1,28 @@
+.blog-layout{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.blog-layout > .blog-card{
+    width: calc(100% / 3);
+    margin: 50px;
+}
+.blog-layout > .blog-card img{
+    width: 100%;
+    object-fit: contain;
+} 
+.blog-layout > .blog-card h2{
+    text-align: center;
+}
+.blog-layout > .blog-card  p{
+    text-align: center;
+}
+.blog-layout hr{
+    width: 80%;
+    display: block;
+    margin:10px auto;
+}

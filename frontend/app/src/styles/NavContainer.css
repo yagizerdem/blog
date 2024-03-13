@@ -1,0 +1,21 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.nav-container > span{
+    display: inline-block;
+    margin: 0 30px 0 0 ;
+}
+.passive-nav-link{
+    color:black;
+    text-decoration: none;
+}
+.active-nav-link{
+    font-weight: bolder;
+    color: #76ABAE;
+}

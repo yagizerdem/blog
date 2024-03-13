@@ -1,0 +1,22 @@
+.blogdetail-container{
+    
+}
+.blogdetail-container > img{
+    margin: auto;
+    display: block;
+
+}
+.blogdetail-container > h2{
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+.blogdetail-container > hr{
+    width: 80%;
+    margin: 30px auto ;
+}
+.blogdetail-container  >p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}

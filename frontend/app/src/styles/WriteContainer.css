@@ -1,0 +1,22 @@
+.write-container{
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+
+}
+.write-container .inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.write-container .inner input ,.write-container .inner textarea {
+    margin: 0px 0 70px 0;
+    text-align: center;
+}
+.write-container button{
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
